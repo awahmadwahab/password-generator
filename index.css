@@ -108,3 +108,15 @@ h3{
     cursor: pointer;
 }
 
+
+@media (max-width:578px) {
+ 
+    #container
+    {
+        margin: auto;
+        box-sizing: border-box;
+       width: 90%;
+        height: auto;
+    }
+    
+}
