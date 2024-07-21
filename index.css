@@ -1,0 +1,97 @@
+body
+{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    background-color: #142b29;
+    color: #BFBFBF;
+}
+#container
+{
+    
+    text-align: center;
+    background-color: #10403B ;
+    height: 30rem;
+    width:30rem;       
+    margin: 70px auto auto auto;
+    padding: 20px;    
+    box-shadow:2px 1px 10px black;
+}
+
+h1,h3
+{
+    text-align: left;
+    
+}
+h3{
+    background-color: #BFBFBF;
+    color: #10403B;
+   width:fit-content;
+   padding: 5px;
+   border-radius: 10px;
+}
+#gen-btn
+{   
+    margin: 20px;
+    color:#BFBFBF;
+    font-size: 25px;
+    background-color: #10403B ;
+    border:2px solid #BFBFBF;
+    border-radius: 8px;
+    padding:5px 10px;
+    font-weight: bold;
+    transition: color 0.5s;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+#gen-btn:hover
+{
+    color:#10403B;
+    background-color: #BFBFBF;
+}
+
+#password
+{  text-align: center;
+}
+
+
+.copy-btn
+{
+
+    margin: 20px;
+    color:#10403B;
+    font-size: 15px;
+    background-color: #BFBFBF ;
+    border:2px solid #BFBFBF;
+    border-radius: 8px;
+    padding:5px 10px;
+    font-weight: bold;
+    transition: color 0.5s;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+#range
+{
+    margin-right: 10px; 
+    -webkit-appearance: none; 
+    appearance: none; 
+    width: 40%; 
+    height: 15px; 
+    background: #142b29; 
+    border-radius: 10px; 
+    outline: none; 
+    opacity: 0.7; 
+    transition: opacity 0.15s ease-in-out; 
+}
+#range::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    appearance: none; 
+    width: 20px;  
+    height: 20px;
+    background: #BFBFBF; 
+    border-radius: 50%; 
+    cursor: pointer;
+}
+
